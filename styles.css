@@ -74,12 +74,12 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 75%;
-  border: 5px solid white;
+  border-radius: 50%;
+  border: 3px solid white;
   transition: all 1.0s;
 }
 header .profile-image:hover {
-  transform: scale(1.5) rotate(360deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -156,6 +156,13 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
+
+.experience-photos {
+  width: 100%;
+  height: auto;
+
+}
+
 a.twitter {
   background-image: url(images/twitter.svg);
 }
